@@ -1,0 +1,43 @@
+@import "colors";
+.home{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3rem;
+}
+
+.productCard {
+    background-color : $tertiary;
+    width: 208px;
+    margin: 2rem;
+    border-radius : 5px;
+    padding: 2rem;
+    transition: all 0.5s;
+    display: flex;
+    flex-direction : column;
+    align-items: center;
+
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+    h4{
+        margin: 1;
+    }
+
+    button{
+        cursor: pointer;
+        background-color: $secondary;
+        border: none;
+        color: $tertiary;
+        border-radius: 5px;
+        font-weight: 400;
+        width: 60%;
+        heigth: 70%;
+        transition: all 0.5;
+        &:hover{
+            background-color: $secondarydark;
+        }
+    }
+}

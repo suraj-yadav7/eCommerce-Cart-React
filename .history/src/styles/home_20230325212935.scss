@@ -1,0 +1,24 @@
+@import "colors";
+.home{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3rem;
+}
+
+.productCard {
+    background-color : $tertiarys;
+    width: 208px;
+    margin: 2rem;
+    border-radius : 5px;
+    padding: 2rem;
+    transition: all e.5s;
+    display: flex;
+    flex-direction : column;
+    align-items: center;
+
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
