@@ -1,0 +1,15 @@
+@import "colors";
+
+footer{
+    background-color: $secondary;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+
+    >h4{
+        color: $primary;
+   
+        }
+   
+    
+}

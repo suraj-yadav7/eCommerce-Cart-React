@@ -1,0 +1,28 @@
+@import "colors";
+
+footer{
+    background-color: $secondary;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+
+    >div{
+        display: flex;
+        justify-content: space-between;
+
+        
+        >h4{
+            color: $primary;
+            margin: 5px;
+            padding: 3px;
+            font: 900 0.7rem "Roboto";
+            transition: all 0.3s;
+            &:hover{
+                opacity: 0.5;
+            }
+            
+        }
+    }
+   
+    
+}

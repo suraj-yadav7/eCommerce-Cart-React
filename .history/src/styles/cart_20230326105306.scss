@@ -1,0 +1,61 @@
+@import "colors";
+
+.cart{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    height: 100vh;
+    >main{
+        padding: 2rem;
+        overflow-y: auto ;
+        >h1{
+            color: $tertiary;
+            font: 100 2rem "Roboto";
+        }
+    }
+
+    >aside{
+        background-color: $primary;
+        color: $tertiary;
+        height: 100%;
+        width: 100%;
+        border-radius: 100px 0 0 100px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        box-shadow: -10 0 10 rgba(0,0,0,0.182);
+        h2{
+            margin: 1rem;
+            font: 100 1.0rem "Roboto";
+            letter-spacing: 2px;
+            &:last-of-type{
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+.cartItem{
+    background-color: green;
+    border-radius: 10px;
+    width: 100%;
+    margin: 2rem 0;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr;
+    align-items: center;
+    img{
+        width: 100%;
+        height: 200px;
+        object-fit: contain;
+    }
+    >div{
+        display: flex;
+        align-items: center;
+        height: 100%;
+        >button{
+            width: 30px;
+            height: 30px;
+        }
+    }
+
+}
